@@ -1,0 +1,58 @@
+body {
+  background: rgb(255, 253, 253);
+}
+
+.wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.calculator {
+  background: grey;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.hasil {
+  width: 267px;
+  font-size: 28px;
+  font-weight: bold;
+  padding: 5px;
+  text-align: center;
+}
+
+.button {
+  width: 60px;
+  height: 50px;
+  font-size: 28px;
+  margin: 3px;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0px 0px 2px black;
+  background-color: orange;
+}
+
+.button:hover {
+  box-shadow: 0px 0px 3px whitesmoke;
+  background-color: darkorange;
+}
+
+.equal {
+  height: 110px;
+}
+
+.equal:hover {
+  background: darkblue;
+  color: white;
+}
+
+.del:hover {
+  background: darkred;
+  color: white;
+}
+
+.zero {
+  width: 130px;
+}
